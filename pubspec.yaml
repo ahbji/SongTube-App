@@ -51,7 +51,6 @@ dependencies:
     newpipeextractor_dart:
         git:
             url: https://github.com/SongTube/newpipeextractor_dart
-            ref: master
 
     # Device Providers
     shared_preferences: ^2.0.6 
@@ -87,7 +86,7 @@ dependencies:
     flutter_glow: ^0.2.0
     autolist:
         git:
-            url: git://github.com/SongTube/autolist.git
+            url: https://github.com/SongTube/autolist.git
             ref: master
     image_fade: ^0.2.1
     animations: ^2.0.0

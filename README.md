@@ -4,6 +4,35 @@ SongTube is a new beautiful and fast application made in flutter, it supports Yo
 
 ---
 
+## Environment Setup
+
+Use fvm to install the flutter SDK:
+
+```sh
+$ fvm install 2.10.0
+$ fvm use 2.10.0 --force
+```
+
+Setup .vscode/settings.json:
+
+```
+{
+    "dart.flutterSdkPath": ".fvm/flutter_sdk/",
+    // Remove .fvm files from search
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    // Remove from file watching
+    "files.watcherExclude": {
+        "**/.fvm": true
+    }
+}
+```
+
+run pub get
+
+run build, enjoy it.
+
 ## Features
 
 + Video Download at any available Quality
